@@ -1,0 +1,54 @@
+
+
+(base) E:\pytorch\p>git add trainWorks
+
+(base) E:\pytorch\p>git commit -m "Template Training" -a trainWorks/*
+fatal: Paths with -a does not make sense.
+
+(base) E:\pytorch\p>git commit -m "Template Training" -a "trainWorks/*"
+fatal: Paths with -a does not make sense.
+
+(base) E:\pytorch\p>git commit -m "Template Training"
+[master (root-commit) 003a9da] Template Training
+ 5 files changed, 261 insertions(+)
+ create mode 100644 trainWorks/ReviewClassifier.py
+ create mode 100644 trainWorks/ReviewDataset.py
+ create mode 100644 trainWorks/ReviewVectorizer.py
+ create mode 100644 trainWorks/Vocabulary.py
+ create mode 100644 trainWorks/train.py
+
+
+git remote add origin https://github.com/cyrilthank/nlp
+
+git push origin master -f
+
+
+=
+
+(base) E:\pytorch\p>git add embedding
+warning: LF will be replaced by CRLF in embedding/5_2_Continuous_Bag_of_Words_CBOW.ipynb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in embedding/5_2_munging_frankenstein.ipynb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in embedding/5_3_Document_Classification_with_CNN.ipynb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in embedding/5_3_Munging_AG_News.ipynb.
+The file will have its original line endings in your working directory.
+
+(base) E:\pytorch\p>git commit -m "Embedding"
+[master 286ea6a] Embedding
+warning: LF will be replaced by CRLF in embedding/5_2_Continuous_Bag_of_Words_CBOW.ipynb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in embedding/5_2_munging_frankenstein.ipynb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in embedding/5_3_Document_Classification_with_CNN.ipynb.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in embedding/5_3_Munging_AG_News.ipynb.
+The file will have its original line endings in your working directory.
+ 4 files changed, 489204 insertions(+)
+ create mode 100644 embedding/5_2_Continuous_Bag_of_Words_CBOW.ipynb
+ create mode 100644 embedding/5_2_munging_frankenstein.ipynb
+ create mode 100644 embedding/5_3_Document_Classification_with_CNN.ipynb
+ create mode 100644 embedding/5_3_Munging_AG_News.ipynb
+
+(base) E:\pytorch\p>                                             
